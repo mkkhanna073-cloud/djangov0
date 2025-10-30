@@ -1,0 +1,17 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Play Local Video</title>
+</head>
+<body>
+  <h2>My Local Video</h2>
+  <video width="640" height="360" controls>
+    <!-- Replace the path below with your actual video file location -->
+    <source src="{% static 'media/valo.mp4'%}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</body>
+</html>
